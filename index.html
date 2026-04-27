@@ -801,8 +801,114 @@ h1 em { color:var(--gold-light); font-style:normal; }
   </p>
 </div>
 
-<!-- S15: WRAP UP -->
-<div class="slide" id="s15" data-label="Key Takeaways">
+<!-- S15: CYSTIC FIBROSIS — WHAT HAPPENS -->
+<div class="slide" id="s15" data-label="Cystic Fibrosis">
+  <h2>Cystic Fibrosis — What Happens?</h2>
+  <div class="rule"></div>
+  <div class="cards-row" style="flex-wrap:wrap;">
+    <div class="card">
+      <div class="ico">🫁</div>
+      <h3>The Lungs</h3>
+      <p>Normally, a thin layer of fluid lines the airways, trapping dust and bacteria so they can be cleared. In CF, this mucus becomes <strong>thick and sticky</strong>, clogging the airways and making it very hard to breathe.</p>
+    </div>
+    <div class="card">
+      <div class="ico">🦠</div>
+      <h3>Infections</h3>
+      <p>Thick mucus is a perfect breeding ground for bacteria. CF patients suffer <strong>repeated, severe lung infections</strong> throughout their lives, which gradually damage the lungs over time.</p>
+    </div>
+    <div class="card">
+      <div class="ico">🍽️</div>
+      <h3>Digestion</h3>
+      <p>The same sticky mucus blocks ducts in the pancreas, stopping digestive enzymes from reaching the gut. Many CF patients <strong>cannot absorb nutrients properly</strong> from food without enzyme supplements.</p>
+    </div>
+    <div class="card">
+      <div class="ico">🧬</div>
+      <h3>The Root Cause</h3>
+      <p>All of this comes from a single broken protein called <strong>CFTR</strong>, which normally acts as a channel to control salt and water flow across cell surfaces. When CFTR doesn't work, the fluid balance fails — and the mucus turns thick.</p>
+    </div>
+  </div>
+  <p style="margin-top:clamp(0.6rem,1.5vh,1.1rem);font-size:clamp(0.85rem,1.6vh,1.05rem);font-style:italic;color:var(--muted);text-align:center;">
+    CF affects about <strong style="color:var(--cream);">1 in 2,500</strong> people. Until recently, most patients did not survive past their 30s. Today, new treatments are changing that — and it all started with finding the mutation.
+  </p>
+</div>
+
+<!-- S16: F508del — HOW THE MUTATION WAS FOUND -->
+<div class="slide" id="s16" data-label="Finding F508del">
+  <h2>How Was F508del Found?</h2>
+  <div class="rule"></div>
+  <div style="display:flex;gap:clamp(1rem,2.5vw,2.5rem);max-width:min(88vw,1300px);width:100%;align-items:flex-start;">
+
+    <!-- Timeline column -->
+    <div style="flex:1;display:flex;flex-direction:column;gap:clamp(0.5rem,1.2vh,0.9rem);">
+      <div class="point">
+        <div class="num" style="font-size:clamp(1rem,2vh,1.5rem);min-width:3.5rem;color:var(--gold);font-family:'Cinzel',serif;letter-spacing:0.05em;">1989</div>
+        <p>Lap-Chee Tsui and Francis Collins mapped chromosome 7 and <strong>sequenced the CFTR gene</strong> — the first time a disease gene was found by systematic chromosome walking rather than knowing the protein first. A landmark moment in genetics.</p>
+      </div>
+      <div class="point">
+        <div class="num" style="font-size:clamp(1rem,2vh,1.5rem);min-width:3.5rem;color:var(--gold);font-family:'Cinzel',serif;letter-spacing:0.05em;">The find</div>
+        <p>Comparing the CFTR sequence in CF patients vs. healthy people revealed that <strong>~70% of CF patients</strong> were missing exactly <strong>3 letters</strong> of DNA code — the letters that encode a single amino acid called phenylalanine at position 508.</p>
+      </div>
+      <div class="point">
+        <div class="num" style="font-size:clamp(1rem,2vh,1.5rem);min-width:3.5rem;color:var(--gold);font-family:'Cinzel',serif;letter-spacing:0.05em;">Why it matters</div>
+        <p>Without those 3 letters, the CFTR protein <strong>folds incorrectly</strong>, gets flagged as defective by the cell, and is destroyed before it can reach the cell surface. No protein → no channel → thick mucus.</p>
+      </div>
+      <div class="point">
+        <div class="num" style="font-size:clamp(1rem,2vh,1.5rem);min-width:3.5rem;color:var(--gold);font-family:'Cinzel',serif;letter-spacing:0.05em;">2023</div>
+        <p>The drug <strong>Trikafta</strong> (elexacaftor/tezacaftor/ivacaftor) was developed specifically to fix the folding problem caused by F508del. It rescues the protein, gets it to the cell surface, and keeps it working. Median life expectancy has roughly <strong>doubled</strong> in the last 20 years.</p>
+      </div>
+    </div>
+
+    <!-- Mutation diagram -->
+    <div style="flex:0 0 clamp(200px,28vw,380px);background:#070f1c;border:1px solid rgba(201,168,76,0.2);border-radius:6px;padding:clamp(0.9rem,2vh,1.5rem);">
+      <div style="font-family:'Cinzel',serif;font-size:clamp(0.6rem,1.1vh,0.75rem);letter-spacing:0.12em;color:rgba(201,168,76,0.55);text-transform:uppercase;text-align:center;margin-bottom:clamp(0.6rem,1.5vh,1rem);">The Mutation — 3 Missing Letters</div>
+
+      <!-- Normal sequence -->
+      <div style="margin-bottom:clamp(0.5rem,1.2vh,0.8rem);">
+        <div style="font-family:'Cinzel',serif;font-size:clamp(0.55rem,1vh,0.7rem);color:#7DFFAA;letter-spacing:0.1em;margin-bottom:0.3rem;">NORMAL</div>
+        <div style="display:flex;gap:3px;flex-wrap:wrap;">
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(125,255,170,0.1);border:1px solid rgba(125,255,170,0.3);border-radius:3px;color:#7DFFAA;">A</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(125,255,170,0.1);border:1px solid rgba(125,255,170,0.3);border-radius:3px;color:#7DFFAA;">T</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(125,255,170,0.1);border:1px solid rgba(125,255,170,0.3);border-radius:3px;color:#7DFFAA;">C</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(201,168,76,0.25);border:1px solid rgba(201,168,76,0.6);border-radius:3px;color:#E8C870;font-weight:700;">A</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(201,168,76,0.25);border:1px solid rgba(201,168,76,0.6);border-radius:3px;color:#E8C870;font-weight:700;">T</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(201,168,76,0.25);border:1px solid rgba(201,168,76,0.6);border-radius:3px;color:#E8C870;font-weight:700;">T</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(125,255,170,0.1);border:1px solid rgba(125,255,170,0.3);border-radius:3px;color:#7DFFAA;">G</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(125,255,170,0.1);border:1px solid rgba(125,255,170,0.3);border-radius:3px;color:#7DFFAA;">G</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(125,255,170,0.1);border:1px solid rgba(125,255,170,0.3);border-radius:3px;color:#7DFFAA;">T</span>
+        </div>
+        <div style="font-size:clamp(0.6rem,1vh,0.72rem);color:rgba(201,168,76,0.5);margin-top:0.3rem;font-style:italic;">↑ position 508 codes for phenylalanine (Phe)</div>
+      </div>
+
+      <!-- Arrow -->
+      <div style="text-align:center;font-size:clamp(1rem,2vh,1.4rem);color:rgba(255,100,100,0.7);margin:0.3rem 0;">↓ F508del mutation</div>
+
+      <!-- Mutant sequence -->
+      <div style="margin-bottom:clamp(0.6rem,1.5vh,1rem);">
+        <div style="font-family:'Cinzel',serif;font-size:clamp(0.55rem,1vh,0.7rem);color:#FF8A8A;letter-spacing:0.1em;margin-bottom:0.3rem;">CF PATIENT</div>
+        <div style="display:flex;gap:3px;flex-wrap:wrap;align-items:center;">
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(255,138,138,0.1);border:1px solid rgba(255,138,138,0.3);border-radius:3px;color:#FF8A8A;">A</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(255,138,138,0.1);border:1px solid rgba(255,138,138,0.3);border-radius:3px;color:#FF8A8A;">T</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(255,138,138,0.1);border:1px solid rgba(255,138,138,0.3);border-radius:3px;color:#FF8A8A;">C</span>
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:clamp(1.2rem,2.5vh,1.8rem);height:clamp(1.2rem,2.5vh,1.8rem);background:rgba(255,50,50,0.15);border:1px dashed rgba(255,80,80,0.5);border-radius:3px;font-size:clamp(0.7rem,1.3vh,0.9rem);color:rgba(255,80,80,0.6);">✕</span>
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:clamp(1.2rem,2.5vh,1.8rem);height:clamp(1.2rem,2.5vh,1.8rem);background:rgba(255,50,50,0.15);border:1px dashed rgba(255,80,80,0.5);border-radius:3px;font-size:clamp(0.7rem,1.3vh,0.9rem);color:rgba(255,80,80,0.6);">✕</span>
+          <span style="display:inline-flex;align-items:center;justify-content:center;width:clamp(1.2rem,2.5vh,1.8rem);height:clamp(1.2rem,2.5vh,1.8rem);background:rgba(255,50,50,0.15);border:1px dashed rgba(255,80,80,0.5);border-radius:3px;font-size:clamp(0.7rem,1.3vh,0.9rem);color:rgba(255,80,80,0.6);">✕</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(255,138,138,0.1);border:1px solid rgba(255,138,138,0.3);border-radius:3px;color:#FF8A8A;">G</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(255,138,138,0.1);border:1px solid rgba(255,138,138,0.3);border-radius:3px;color:#FF8A8A;">G</span>
+          <span style="font-family:monospace;font-size:clamp(0.7rem,1.4vh,1rem);padding:0.2rem 0.35rem;background:rgba(255,138,138,0.1);border:1px solid rgba(255,138,138,0.3);border-radius:3px;color:#FF8A8A;">T</span>
+        </div>
+        <div style="font-size:clamp(0.6rem,1vh,0.72rem);color:rgba(255,138,138,0.5);margin-top:0.3rem;font-style:italic;">↑ 3 letters deleted → no phenylalanine → misfolded protein</div>
+      </div>
+
+      <div style="background:rgba(139,26,43,0.2);border-left:2px solid var(--crimson);padding:0.6rem 0.8rem;border-radius:0 3px 3px 0;">
+        <div style="font-size:clamp(0.72rem,1.3vh,0.88rem);color:#c4b5bb;line-height:1.5;">The name <strong style="color:var(--cream);">F508del</strong> means: <em>Phenylalanine (F) at position 508, deleted (del).</em> Three missing letters. One broken protein. One disease.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- S17: WRAP UP -->
+<div class="slide" id="s17" data-label="Key Takeaways">
   <h2>What Did We Learn?</h2>
   <div class="rule"></div>
   <div class="wrap-points">
